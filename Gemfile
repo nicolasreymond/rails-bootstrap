@@ -45,3 +45,17 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'bootstrap', '~> 4.0.0'
+gem 'high_voltage'
+gem 'mysql2', '~> 0.3.18'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+
+group :development do
+  gem 'better_errors'
+  gem 'hub', :require=>nil
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
